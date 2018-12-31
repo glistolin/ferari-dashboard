@@ -1,0 +1,55 @@
+<div class="register" ng-controller="SignUpController" flex layout="column" ng-cloak="" ng-app="ferariApp">
+
+  <div layout="row" layout-align="center center" layout-fill>
+    <md-whiteframe class="md-whiteframe-z1" layout="column" flex="40" flex-sm="100" layout-padding>
+    <md-toolbar class="md-hue-2">
+      <div class="md-toolbar-tools">
+      <p>Please sign up using the form below</p>
+      </div>
+    </md-toolbar>
+      <div ng-show="error" class="alert alert-danger">{{errorMessage}}</div>
+      <form class="form" ng-submit="register()">
+        <!-- <div layout-gt-sm="row">
+          <md-input-container class="md-block" flex-gt-sm="">
+            <label>First name</label>
+            <input name="name" ng-model="registerForm.firstName">
+          </md-input-container>
+
+          <md-input-container class="md-block" flex-gt-sm="">
+            <label>Last Name</label>
+            <input name="surname" ng-model="registerForm.lastName">
+          </md-input-container>
+        </div>
+ -->    <div>
+          <md-input-container class="md-block">
+            <label>Username</label>
+            <input name="username" ng-model="registerForm.username" required>
+          </md-input-container>
+
+          <md-input-container>
+            <label>Password</label>
+            <input name="password" ng-model="registerForm.password" type="password" required>
+          </md-input-container>
+          
+          <md-input-container>
+            <label>Confirm Password</label>
+            <input name="password2" ng-model="registerForm.password2" type="password">
+          </md-input-container>
+
+          <md-input-container>
+            <label>Email</label>
+            <input name="email" ng-model="registerForm.email" type="email"  required>
+          </md-input-container>
+        </div>
+        <div>
+          <md-input-container layout-align="center center">
+            <div layout="row" layout-sm="column" layout-margin>
+              <md-button class="md-raised md-primary" flex="50" flex-sm="100" type="submit" ng-disabled="disabled">Sign Up</md-button>
+            </div>
+          </md-input-container>
+        </div>
+      </form>
+      <md-button ui-sref="login" class="md-raised md-secondary" flex="50" flex-sm="100">Login</md-button>
+    </md-whiteframe>
+  </div>
+</div>

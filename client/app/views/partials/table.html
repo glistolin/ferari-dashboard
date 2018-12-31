@@ -1,0 +1,15 @@
+<div class="panel-heading">Events<span flex=""></span>
+	<div class="pull-right">
+  		<ng-md-icon icon="grid_on" style="fill: pink"></ng-md-icon>
+	</div>
+</div>
+<div class="panel-body" ng-controller="PeriodEventsCtrl">	
+  	<div id="table" ng-controller="TableController" ng-cloak="" class="progressCirculardemoBasicUsage">
+		<div id="grid1" supported="supported" text="textToCopy" on-copied="success()" on-error="fail(err)" ui-grid="gridOptions" ui-grid-edit ui-grid-row-edit ui-grid-selection ui-grid-pagination ui-grid-resize-columns class="grid" ui-grid-exporter external-scopes="$scope" ng-show="dataLoaded"></div>
+		<!-- <button id="copyRows"  type="button" class="btn btn-success" ng-click="copyRows()" >Copy</button> -->
+		<div ng-hide="dataLoaded" layout="row" layout-sm="column" layout-align="space-around">
+	  		<md-progress-circular md-mode="indeterminate"></md-progress-circular>
+		</div>
+	</div>
+</div>
+	

@@ -1,0 +1,13 @@
+<div class="widget-heading" flex ng-controller="GraphCtrl">
+	<div class="pull-right">
+		<div>
+			<ng-md-icon icon="looks_4" style="fill: #FFF" size="16"></ng-md-icon>
+		</div>
+	</div>
+	<h5>Event types</h5>
+	<div id="mini_4hours"></div>
+</div>
+<div class="mini-footer text-center" ng-controller="EventCounterCtrl">
+    <h3 count-to="{{countTo4hours}}" value="{{countFrom}}" duration="4" class="total-events"></h3>
+    <p class="event-number">Last 4 months</p>
+</div>

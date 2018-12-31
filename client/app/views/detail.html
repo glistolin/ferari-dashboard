@@ -1,0 +1,31 @@
+<!-- <a class="back" href="/dashboard">Back</a> -->
+<md-dialog aria-label="User details" flex="80" ng-cloak>
+  <md-toolbar>
+    <div class="md-toolbar-tools">
+      <h2>User details</h2>
+      <span flex></span>
+      <md-button class="md-icon-button" ng-click="cancel()">
+        <ng-md-icon icon="cancel" style="fill: #fff" aria-label="Close dialog"></ng-md-icon>
+      </md-button>
+    </div>
+  </md-toolbar>
+
+  <md-dialog-content style="max-width:auto; max-height: auto;">
+    	<div flex class="md-dialog-content">
+      	<!-- First row - User Details with Behavior -->
+  			<div layout-gt-md="row">
+  			  <panel-widget flex title="Customer data" template="views/partials/widgets/customers-table.html" class="fixed-height-widget"></panel-widget>
+  			</div>
+
+  			<!-- Second row - Last 500 calls of the Event -->
+  			<div layout-gt-md="row">
+  				<panel-widget flex title="Last 500 calls" template="views/partials/tables-tab.html" class="fixed-height-widget"></panel-widget>
+  			</div>
+
+  			<!-- Third row -->
+  			<!-- <div layout-gt-md="row">
+  				<panel-widget flex title="Map" template="views/partials/map.html" class="fixed-height-widget"></panel-widget>
+  			</div> -->
+    	</div>
+  </md-dialog-content>
+</md-dialog>

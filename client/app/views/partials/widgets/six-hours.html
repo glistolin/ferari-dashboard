@@ -1,0 +1,64 @@
+<div class="widget-heading" flex>
+	<div class="pull-right">
+		<div>
+  			<ng-md-icon icon="refresh" style="fill: #FFF" size="16"></ng-md-icon>
+		</div>
+	</div>
+	<h5>Last 6 hours</h5>
+	<div id="mini_sixhours"></div>
+</div>
+<div class="mini-footer text-center" ng-controller="EventCounterCtrl">
+    <h3 count-to="{{countInSixHours.count}}" value="{{countFrom}}" duration="4" class="total-events"></h3>
+    <p class="event-number">Last six hours</p>
+</div>
+
+<!-- <div class="mini-footer text-center" ng-controller="EventCounterCtrl">
+    <h3 count-to="{{countToTotal.count}}" value="{{countFrom}}" duration="0" class="total-events"></h3>
+    <p class="event-number">In one hour</p>
+</div> -->
+<!-- <md-content ng-controller="GraphCtrl">
+	<md-card>
+	  <div class="graph" style="background-color: #3F51B5">
+		<div class="panel-heading">
+			<div class="pull-right">
+	  			<div class="row">
+	  				<ng-md-icon icon="looks_two" style="fill: #C5CAE9" size="16"></ng-md-icon>
+	  			  	<ng-md-icon icon="looks_4" style="fill: #C5CAE9" size="16"></ng-md-icon>
+	  		  	</div>
+	  		</div>
+			<h5>Last 24 hours</h5>
+			<div id="mini_24hours"></div>
+		</div>
+      	
+      </div>
+      <md-card-content class="mini-footer text-center">
+        <h3 class="total-events">102</h3>
+        <p class="event-number">In 24 hours</p>
+      </md-card-content>
+    </md-card>
+</md-content>
+ -->
+<!-- <div id="last-24-hours" ng-controller="GraphCtrl">
+	<div class="panel-heading">Last 24 hours<span flex=""></span>
+		<div class="pull-right">
+			<div class="row">
+				<ng-md-icon icon="looks_two" style="fill: #C5CAE9"></ng-md-icon>
+			  	<ng-md-icon icon="looks_4" style="fill: #C5CAE9"></ng-md-icon>
+		  	</div>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div id="mini_4hours"></div>
+        <div class="row">
+          <div class="col-md-6 text-center" style="border-right: 1px #F0F0F0 solid;">
+            <h3 class="total-events">102</h3>
+            <p class="event-number">Total events</p>
+          </div>
+        
+          <div class="col-md-6 text-center">
+            <h3 class="total-events">2</h3>
+            <p class="event-number">Today events</p>
+          </div>
+        </div>
+	</div>
+</div> -->

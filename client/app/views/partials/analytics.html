@@ -1,0 +1,14 @@
+<div id="analytics">
+	<div class="panel-heading">Analytics<span flex=""></span></div>
+	<div class="panel-body" ng-controller="SwitchCtrl" ng-cloak>
+		<div id="switch" layout="row">
+			<md-switch class="md-primary" ng-model="data.data1" aria-label="Switch 1" ng-change="updateChart()"><span>New Users</span>
+			</md-switch>
+
+			<md-switch class="md-secondary" ng-model="data.data2" aria-label="Switch 2" ng-change="updateChart()"><span>Returning Users</span>
+			</md-switch>
+	    </div>
+		<svg id="chart1" width="300" height="300"></svg>
+	</div>
+</div>
+

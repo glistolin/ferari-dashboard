@@ -1,0 +1,42 @@
+<div class="login" ng-controller="LoginController" flex layout="column"  ng-cloak="" ng-app="ferariApp">
+  <!-- <div class="login-header" layout="column" flex layout-padding>
+      FERARI<br>
+      <span class="small">Dashboard</span>
+  </div>
+ -->
+  <div layout="row" layout-align="center center" layout-fill>
+    <md-whiteframe class="md-whiteframe-z1" layout="column" flex="40" flex-sm="100" layout-padding>
+        <div class="login-icon">
+          <md-toolbar class="md-tall md-hue-2">
+          <span flex></span>
+         <div layout="column" class="md-toolbar-tools-bottom inset" layout-align="center center">
+            <user-avatar></user-avatar>
+            <span></span>
+          </div>
+        </md-toolbar>
+        </div>
+       <div ng-show="error" class="alert alert-danger">{{errorMessage}}</div>
+        <form class="form" ng-submit="login()">
+          <div>
+            <md-input-container>
+              <label>Username</label>
+              <input ng-model="loginForm.username" required>
+            </md-input-container>
+
+            <md-input-container>
+              <label>Password</label>
+              <input ng-model="loginForm.password" type="password" required>
+            </md-input-container>
+          </div>
+          
+          <div>
+            <md-input-container layout-align="center center">
+              <div layout="row" layout-sm="column" layout-margin>
+                <md-button class="md-raised md-primary" flex="50" flex-sm="100" type="submit">Login</md-button>
+            </md-input-container>
+          </div>
+        </form>
+        <md-button ui-sref="register" class="md-raised md-secondary" flex="50" flex-sm="100">Register</md-button>
+    </md-whiteframe>
+  </div>
+</div>

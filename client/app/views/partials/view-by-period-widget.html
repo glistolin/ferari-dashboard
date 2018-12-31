@@ -1,0 +1,35 @@
+<div id="number-of-events" ng-controller="GraphCtrl">
+	<div class="panel-heading">Total Number of Events<span flex=""></span>
+		<div class="pull-right">
+		  	<ng-md-icon icon="storage" style="fill: #3F51B5"></ng-md-icon>
+		</div>
+	</div>
+	<div class="panel-body">
+		<div id="mini_total"></div>
+		<!-- md card doesn't show good at the small resolution -->
+		<md-card class="flexbox-container" flex layout="row">
+		 <div class="row">
+          <div class="col-md-6 text-center" style="border-right: 1px #F0F0F0 solid;">
+            <h3 class="total-events">4181</h3>
+            <p class="event-number">Total events</p>
+          </div>
+        
+          <div class="col-md-6 text-center">
+            <h3 class="total-events">233</h3>
+            <p class="event-number">Today events</p>
+          </div>
+        </div>
+		</md-card>
+        <!-- <div class="row">
+          <div class="col-md-6 text-center" style="border-right: 1px #F0F0F0 solid;">
+            <h3 class="total-events">4181</h3>
+            <p class="event-number">Total events</p>
+          </div>
+        
+          <div class="col-md-6 text-center">
+            <h3 class="total-events">233</h3>
+            <p class="event-number">Today events</p>
+          </div>
+        </div> -->
+	</div>
+</div>

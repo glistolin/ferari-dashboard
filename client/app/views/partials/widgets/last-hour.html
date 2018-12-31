@@ -1,0 +1,45 @@
+<div class="widget-heading" flex>
+	<div class="pull-right">
+		<div>
+			<ng-md-icon icon="format_align_justify" style="fill: #FFF" size="16"></ng-md-icon>
+		</div>
+	</div>
+	<h5>Last hour</h5>
+	<div id="mini_onehour"></div>
+</div>
+<div class="mini-footer text-center" ng-controller="EventCounterCtrl">
+    <h3 count-to="{{countToTotal.count}}" value="{{countFrom}}" duration="0" class="total-events"></h3>
+    <p class="event-number">In one hour</p>
+</div>
+
+<!-- <br/><br/><br/><br/><br/><br/>
+<div id="legend"></div> -->
+
+	<!-- md card doesn't show good at the small resolution -->
+	<!-- <md-card class="flexbox-container" flex layout="row">
+	 <md-card-content class="col-md-6 text-center" flex-gt-md="50" style="border-right: 1px #F0F0F0 solid;">
+	   <h3>129</h3>
+	   <p>Total events</p>
+	 </md-card-content>
+	
+	 <md-card-content class="col-md-6 text-center" flex-gt-md="l50">
+	   <h3>32</h3>
+	   <p>Today events</p>
+	 </md-card-content>
+	</md-card> -->
+
+    <!-- <div class="row" ng-controller="EventCounterCtrl">
+      <div class="col-md-6 text-center" style="border-right: 1px #F0F0F0 solid;">
+        <h3 count-to="{{countToTotal.count}}" value="{{countFrom}}" duration="0" class="total-events"></h3>
+        <p class="event-number">Total events</p>
+      </div>
+    
+      <div class="col-md-6 text-center">
+        <h3 count-to="{{countToTotal.count}}" value="{{countFrom}}" duration="4" class="total-events"></h3>
+        <p class="event-number">Today events</p>
+      </div> -->
+      	<!-- <div class="mini-footer text-center" ng-controller="EventCounterCtrl">
+      		    	<h3 count-to="{{countToTotal.count}}" value="{{countFrom}}" duration="0" class="total-events"></h3>
+      		    	<p class="event-number">In 1 hour</p>
+      			</div> -->
+    

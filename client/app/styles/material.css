@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+md-toolbar.md-default-theme, md-tabs.md-default-theme.md-primary .md-header {
+	background-color: #3F51B5;
+}
+
+md-toolbar.md-default-theme.md-hue-2 {
+	background-color: #303F9F;
+}
+
+.md-toolbar-tools-bottom {
+  font-size: small;
+}
+
+.md-title, .md-toolbar-tools{
+  letter-spacing: .5px;
+}
+
+
+/* md-toolbar.panel-widget-toolbar{
+  color: #535353;
+  background-color: #ffffff;
+} */
+
+
+ng-md-icon {
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+h2 {
+  font-weight: 400;
+  color: #fff;
+}
+
+.md-toolbar-tools-bottom :last-child {
+  opacity: 0.8;
+}
+
+md-toolbar:not(.md-hue-1),
+.md-fab {
+  fill: #fff;
+}
+
+md-list .md-button {
+  color: #737373;
+  font-weight: 400;
+  text-align: left;
+  width: 100%;
+  display: inline;
+}
+
+md-list .md-button.selected {
+  color: #03a9f4;
+}
+
+md-sidenav  md-list {
+  padding: 0px 0px 8px 0px;
+}
+
+md-sidenav {
+  fill: #737373;
+}
+
+md-sidenav ng-md-icon {
+  position: relative;
+  top: 5px;
+}
+
+.user-avatar {
+  border-radius: 99%;
+}
+
+md-tab-content {
+  overflow: auto;
+}
+#tab-content-0 > div {
+  height: 100%;
+}
+
+/* Dialog styling */
+
+/* Login styling */
+
+.login .login-icon .user-avatar{
+  margin: 20px;
+}
+
+.register p{
+  color: white;
+  margin: 0 auto;
+}

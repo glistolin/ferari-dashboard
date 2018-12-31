@@ -1,0 +1,33 @@
+<div class="widget-heading" flex ng-controller="GraphCtrl">
+	<div class="pull-right">
+		<div>
+			<ng-md-icon icon="trending_up" style="fill: #FFF" size="16"></ng-md-icon>
+		</div>
+	</div>
+	<h5>Last 4 days</h5>
+	<div id="mini_4days"></div>
+</div>
+<div class="mini-footer text-center" ng-controller="EventCounterCtrl">
+	<h3 count-to="{{countTo4days}}" value="{{countFrom}}" duration="4" class="total-events"></h3>
+	<p class="event-number">In 4 days</p>
+</div>
+<!-- card in widget look -->
+<!-- <md-content ng-controller="GraphCtrl">
+	<md-card>
+	  <div class="graph" style="background-color: #5fcf80">
+		<div class="mini-panel-heading">
+			<div class="pull-right">
+	  			<div class="row">
+	  				<ng-md-icon icon="trending_up" style="fill: #FFF" size="16"></ng-md-icon>
+	  		  	</div>
+	  		</div>
+			<h5>Last 4 days</h5>
+			<div id="mini_4days"></div>
+		</div>
+      </div>
+      <md-card-content class="mini-footer text-center">
+        <h3 class="total-events">134</h3>
+        <p class="event-number">4 days</p>
+      </md-card-content>
+    </md-card>
+</md-content> -->

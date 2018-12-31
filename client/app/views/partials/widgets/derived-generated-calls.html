@@ -1,0 +1,7 @@
+<div class="panel-body" ng-controller="DetailController">	
+  	<div id="table2">
+  		<div id="grid2" ui-grid="gridOptions" ui-grid-selection ui-grid-pagination ui-grid-resize-columns class="grid" ></div>
+      <!-- Pagination binding -->
+      <p>Current page: {{ gridApi.pagination.getPage() }} of {{ gridApi.pagination.getTotalPages() }}</p>
+  	</div>
+</div> 

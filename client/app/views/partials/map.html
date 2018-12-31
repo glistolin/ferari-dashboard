@@ -1,0 +1,24 @@
+<div id="mapping" ng-controller="MapController">	
+<div id="mapping">
+ 	<div class="panel-heading">Map<span flex=""></span>
+		<div class="pull-right">
+			<ng-md-icon slide-toggle="#derp" icon="place" style="fill: pink"></ng-md-icon>
+		</div>
+	</div>
+	<div id="derp" class="slideable">
+		<div class="panel-body">
+			<div id="map"></div>
+		</div>
+	</div>
+</div>
+<!-- Pokušaj dodavanja ng-show collapsa na mapu - ne učitava se pravilno -->
+<!-- <div id="mapping" ng-controller="MapController">	
+	 <div class="panel-heading">Map<span flex=""></span>
+		<div class="pull-right">
+			<a href="#" ng-model="collapsed" ng-click="collapsed=!collapsed"><ng-md-icon icon="place" style="fill: #FF4081"></ng-md-icon></a>
+		</div>
+	</div>
+	<div class="panel-body" ng-show="collapsed">
+		<leaflet markers="markers" center="croatia" style="height: 1024px; width: 100%;" geojson="geojson"></leaflet>
+	</div>
+</div> -->

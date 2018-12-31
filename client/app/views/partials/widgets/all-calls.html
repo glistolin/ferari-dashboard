@@ -1,0 +1,12 @@
+<div class="panel-heading">Derived Event Details<span flex=""></span>
+	<div class="pull-right">
+		<ng-md-icon icon="grid_on" style="fill: pink"></ng-md-icon>
+	</div>
+</div>
+<div class="panel-body" ng-controller="DetailCtrlAllCalls">	
+  	<div id="table">
+  		<div id="grid2" supported="supported" text="textToCopy" on-copied="success()" on-error="fail(err)" ui-grid="gridOptions" ui-grid-edit ui-grid-row-edit ui-grid-selection ui-grid-pagination ui-grid-resize-columns class="grid" ui-grid-exporter external-scopes="$scope"></div>
+      <!-- Pagination binding -->
+      <p>Current page: {{ gridApi.pagination.getPage() }} of {{ gridApi.pagination.getTotalPages() }}</p>
+  	</div>
+</div> 

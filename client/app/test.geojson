@@ -1,0 +1,425 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "id": "kva",
+            "properties": {
+                "name": "kvatric"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.99799,
+                    45.81537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "rijeka",
+            "properties": {
+                "name": "rijeka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.00241,
+                    45.81017
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "klc",
+            "properties": {
+                "name": "Karlovac"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.98787,
+                    45.81005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "tri",
+            "properties": {
+                "name": "Nesto"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.01178,
+                    45.81611
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "hnk",
+            "properties": {
+                "name": "HNK"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97274,
+                    45.80921    
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "univZg",
+            "properties": {
+                "name": "univZg"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.96973,
+                    45.81088
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "esp",
+            "properties": {
+                "name": "Esplanade"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97591,
+                    45.80556    
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "fer",
+            "properties": {
+                "name": "FER"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97136,
+                    45.80089
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "nsk",
+            "properties": {
+                "name": "NSK"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97754,
+                    45.79676    
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "srce",
+            "properties": {
+                "name": "SRCE"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.96953,
+                    45.79222    
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "velesajam",
+            "properties": {
+                "name": "Velesajam"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.96857,
+                    45.77778        
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vje",
+            "properties": {
+                "name": "Vjesnik"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.95989,
+                    45.79341    
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "avenueMall",
+            "properties": {
+                "name": "Vjesnik"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.97882,
+                    45.77649       
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "msuzg",
+            "properties": {
+                "name": "Muzej suvremene umjetnosti"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.98183,
+                    45.77885        
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "pdft",
+            "properties": {
+                "name": "Park Doktora Franje Tuđmana"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.06916,
+                    45.71474           
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dz",
+            "properties": {
+                "name": "Dom zdravlja"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.06539,
+                    45.71375            
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "POU",
+            "properties": {
+                "name": "Pučko otvoreno učilište"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.06943,
+                    45.71585            
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "cavlek",
+            "properties": {
+                "name": "Stadion Čavlek"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.56398,
+                    45.48455               
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "dmla",
+            "properties": {
+                "name": "Sportska dvorana Mladost"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    15.55763,
+                    45.48648                   
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "sc",
+            "properties": {
+                "name": "SC Rijeka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.43455,
+                    45.33010                     
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gkl",
+            "properties": {
+                "name": "Gradsko kazalište lutaka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.43440,
+                    45.33027                      
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "ZKR",
+            "properties": {
+                "name": "Željeznički kolodvor Rijeka"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.42997,
+                    45.33036                          
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "jl",
+            "properties": {
+                "name": "Jadrolinija"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.43852,
+                    45.32724                          
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "autotrans",
+            "properties": {
+                "name": "Autotrans"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.43733,
+                    45.32796                            
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "vr",
+            "properties": {
+                "name": "Veleučilište"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.43822,
+                    45.32789                               
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gamr",
+            "properties": {
+                "name": "Gimnazija Andrije Mohorovičića"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.44141,
+                    45.32836                                   
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gamr",
+            "properties": {
+                "name": "Gimnazija Andrije Mohorovičića"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.44141,
+                    45.32836                                   
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gamr",
+            "properties": {
+                "name": "Gimnazija Andrije Mohorovičića"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    14.44141,
+                    45.32836                                   
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gamr",
+            "properties": {
+                "name": "Gimnazija Andrije Mohorovičića"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    17.44141,
+                    47.32836                                   
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "gamr",
+            "properties": {
+                "name": "Gimnazija Andrije Mohorovičića"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    19.44141,
+                    57.32836                                   
+                ]
+            }
+        }
+    ]
+}

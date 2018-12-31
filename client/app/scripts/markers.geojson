@@ -1,0 +1,36 @@
+markers: {
+    krasicMarker: {
+    	icon: {
+			iconUrl: 'http://andywoodruff.com/maptime-leaflet/rat.png',
+			iconSize: [50,40]	                   
+    	},	
+        lat: 45.655933,
+    	lng: 15.517778,
+        message: "Another bastard here! Go catch him!",
+        focus: true,
+        draggable: false
+    },
+    zagrebMarker: {
+    	icon: {
+			iconUrl: 'http://andywoodruff.com/maptime-leaflet/rat.png',
+			iconSize: [50,40]	                   
+    	},	
+        lat: 45.815399,
+		lng: 15.966568,
+        message: "Another bastard here! Go catch him!",
+        focus: true,
+        draggable: false
+    },
+    splitMarker: {
+    	icon: {
+			iconUrl: 'http://andywoodruff.com/maptime-leaflet/rat.png',
+			iconSize: [50,40]	                   
+    	},	
+        lat: 43.510742,
+		lng: 16.437489,
+        message: "Another bastard here! Go catch him!",
+        focus: true,
+        draggable: false
+    }
+
+	        },

@@ -1,0 +1,28 @@
+<div class="panel-heading">User Details<span flex=""></span>
+	<div class="pull-right">
+  		<ng-md-icon icon="settings_input_composite" style="fill: pink"></ng-md-icon>
+	</div>
+</div>
+<div flex class="panel-body" id="popupContainer" ng-cloak style="height: 100%;">
+	<md-content>
+		<md-tabs md-dynamic-height md-selected="selectedIndex" md-center-tabs>
+	     	<md-tab ng-click="adjustSize()" label="Peak / OffPeak" aria-controls="Tab 1"><span flex=""></span>
+	     		<div class="panel-body">
+	     			<!-- <div flex layout="column" title="User details" ng-include="'views/partials/peak.html'"></div> -->
+					<div class="panel-body" ng-controller="PeakGraphCtrl" ng-cloak>
+						<svg id="peak" width="640" height="300"></svg>
+					</div>
+	     		</div>
+	     	</md-tab> 
+
+	     	<md-tab ng-click="adjustSize()" label="Zones" aria-controls="Tab 2"><span flex=""></span>
+	     		<div class="panel-body">
+	     			<!-- <div flex layout="column" title="User details" ng-include="'views/partials/zones.html'"></div> -->
+	     			<div class="panel-body" ng-cloak ng-controller="ZonesGraphCtrl">
+						<svg id="zones" width="640" height="300"></svg>
+					</div>
+	     		</div>
+	     	</md-tab>
+	  	</md-tabs>
+	</md-content>
+</div>

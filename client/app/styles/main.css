@@ -1,0 +1,139 @@
+body {
+  font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  letter-spacing: .1px;
+  padding: 0;
+  margin: 0;
+  height: 100%
+}
+
+h1,h2,h3,p {
+  color: #212121;
+}
+
+.dashboard{
+	background-color: #ECECEC;
+}
+
+.panel-widget{
+  background-color: #fff;
+}
+
+md-tabs{
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.panel-heading {
+  margin: 0 22px;
+  padding: 14px 0;
+  border-color: #e4e4e4;
+  text-transform: uppercase;
+  color: #727272;
+}
+ 
+.widget-heading{
+  background-color: #536DFE;
+  padding: 10px;
+  border: none;
+} 
+
+.widget-heading h5, .pull-right {
+  color: #FFF;
+  padding: 5px;
+}
+
+.mini-footer h3 {
+  color: #C5CAE9;
+}
+
+.mini-footer p {
+  color: #727272;
+}
+
+/* .sidebar {
+  background-color: #C5CAE9;
+  margin-top: 17px;
+}
+ */
+
+.card-body {
+  padding: 20px 24px;
+}
+
+.notifications-label {
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 12px;
+  right: 25px;
+  background-color: #FF4081;
+}
+
+.modalGrid {
+  width: 50px;
+  height: 200px;
+}
+.modal-dialog {
+  width: 50px;
+}
+.form-control {
+	width: 100%;
+}
+
+/*.daily_analysis {
+  width: 100%;
+  min-height: 350px;
+}*/
+
+svg { 
+  overflow: hidden; 
+}
+
+#map{ 
+  width: 100%;
+  height: 1024px; 
+}
+/* #map { height: 400px;} */
+
+.footer p{
+  margin: 0 auto;
+  text-align: center;
+}
+ng-md-icon {
+  cursor: pointer;
+}
+
+
+/* daily_analysis chart styling */
+
+#daily:-webkit-full-screen {
+  width: 100%;
+  height: 100%;
+}
+
+.panel-actions {
+  margin-top: -20px;
+  margin-bottom: 0;
+  text-align: right;
+}
+.panel-actions a {
+  color:#333;
+}
+.panel-fullscreen {
+    display: block;
+    z-index: 9999;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: auto;
+}
+
+/* C3 custom styling */
