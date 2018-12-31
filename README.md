@@ -1,3 +1,7 @@
 MEAN application for the FERARI project.
 
 Read more http://www.ferari-project.eu/wp-content/uploads/2016/06/Using-MEAN-Stack-for-Development-of-GUI-in-Real-Time-Big-Data-Architecture.pdf
+
+<img src="https://user-images.githubusercontent.com/7149768/50558375-196f8700-0cee-11e9-82c9-cdaf429591d8.PNG" width="280" height="180">&nbsp;<img src="https://user-images.githubusercontent.com/7149768/50558475-04dfbe80-0cef-11e9-99e7-70d11e57a141.PNG" width="280" height="180">&nbsp;<img src="https://user-images.githubusercontent.com/7149768/50558538-8afc0500-0cef-11e9-9002-8c408f4afa44.PNG" width="280" height="180">
+<img src="https://user-images.githubusercontent.com/7149768/50558577-d44c5480-0cef-11e9-91f1-db604229b13f.png" width="280" height="180">&nbsp;<img src="https://user-images.githubusercontent.com/7149768/50558643-58064100-0cf0-11e9-8eda-5aa32b916b02.PNG" width="280" height="180">&nbsp;<img src="https://user-images.githubusercontent.com/7149768/50558688-aca9bc00-0cf0-11e9-846f-4417b27e4a0a.png" width="280" height="180">&nbsp;<img src="https://user-images.githubusercontent.com/7149768/50558711-d236c580-0cf0-11e9-815c-126c6e90a267.png" width="280" height="180"><img src="https://user-images.githubusercontent.com/7149768/50558735-f7c3cf00-0cf0-11e9-8f9f-104e6e20332b.png" width="280" height="180">&nbsp;<img src="https://user-images.githubusercontent.com/7149768/50558831-8fc1b880-0cf1-11e9-9c9c-e23643101325.PNG" width="280" height="180">
+
